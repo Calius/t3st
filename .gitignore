@@ -1,0 +1,67 @@
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+xhprof-master
+
+# Single files #
+################
+.htaccess
+/files/*.gz
+/files/*.sql
+
+# Versioning systems #
+######################
+.svn
+
+##################################
+# Typo3 specific files & folders #
+##################################
+
+# TYPO3 sources #
+#################
+t3lib
+typo3
+typo3_src*
+
+# TYPO3 config files #
+######################
+typo3conf/AdditionalConfiguration.php
+typo3conf/ENABLE_INSTALL_TOOL
+
+# Editor files #
+################
+uploads/media/*
+uploads/pics/*
+fileadmin/_processed_/
+fileadmin/user_upload/
+fileadmin/content/
+
+# Temp files #
+##############
+fileadmin/_temp_
+typo3conf/temp_*
+typo3conf/l10n
+typo3conf/ext/powermail/Resources/Public/Image/captcha.png
+typo3temp/
+
+#######
+# IDE #
+#######
+
+# PhpStorm #
+############
+.idea
+atlassian-ide-plugin.xml
+
+# Build tools #
+###############
+/node_modules
+/npm-debug.log
+
+# Vagrant #
+###########
+/Vagrantfile
+/.vagrant
+/vagrant-provision/keys/
